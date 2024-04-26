@@ -1,0 +1,127 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background-color: gold;
+    background-image: radial-gradient(whitesmoke, gold);
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+h1 {
+    border: 6px solid hsl(90, 19%, 6%);
+}
+ 
+.container {
+    min-height: 100px;
+    background-color: #0a0a0a;
+    color: #f8ffff;
+    background-image: url('../img/taco.avif');
+    background-repeat: repeat;
+    background-position: bottom right;
+    background-size: contain;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-basis: 100px;
+    position: sticky;
+
+}
+
+.box {
+    border: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgba(7, 7, 7, 0)
+}
+
+a:link {
+    color: lightblue;
+    text-decoration: none;
+    background-color: #0c0c0c;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }
+
+/* @keyframes imageAnimation {
+  from {background-image: url(taco\ site.avif);}
+  to {background-image: url(ss.avif);}
+}
+
+.animated-element {
+  width: 450px;
+  height: 200px;
+  background-size: cover;
+  background-position: right;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-timing-function: 2s;
+  animation-direction: reverse;
+} */
+.ul.box{
+  list-style-type: none;
+}
+
+@media screen and  (min-width: 565px) {
+  body{
+    background-color: orange;
+    background-image: radial-gradient(whitesmoke, orange)
+  }
+}
+@media screen and  (min-width: 785px) {
+  body{
+    background-color: yellow;
+    background-image: radial-gradient(whitesmoke, yellow)
+  }
+}
+@media screen and  (min-width: 856px) {
+  body{
+    background-color: red;
+    background-image: radial-gradient(whitesmoke, red)
+  }
+}  
